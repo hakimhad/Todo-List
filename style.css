@@ -1,0 +1,91 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "montserrat";
+  background-color:#042a2b
+}
+
+#main{
+  width: max-content;
+  padding: 10px 20px;
+  height: max-content; 
+  min-height: 260px;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 16px;
+  /* border: 1px solid gray; */
+  border-radius: 60px 0;
+  background-color: #788aa3
+
+
+}
+h3 {
+  width: auto;
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+#form {
+  width: max-content;
+}
+
+#input {
+  width: 250px;
+  font-size: 16px;
+  border:none;
+  border-radius: 9px 0 20px 0;
+  padding: 5px 10px;
+  background-color: #f0b67f;
+
+  outline: none;
+}
+#list {
+  width: 250px;
+  padding: 0%;
+  list-style: none;
+
+}
+
+#list>div {
+  display: flex;
+  justify-content: space-between;
+  color: #c7efcf;
+  background: #553e4e;
+  margin: 5px;
+  padding: 5px 10px;
+
+}
+#list>span{
+  display: inline-block;
+  width: 226px;;
+}
+
+#item{
+  width: 250px;
+  background-color: #c7efcf;
+  color: #042a2b;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 9px 0 30px 0;
+}
+.done-text{
+  /* background-color: rgb(199, 199, 199); */
+  text-decoration-line: line-through;
+}
+.done-div{
+  background-color: rgb(199, 199, 199);
+  color: #042A2B;
+}
+.remove{
+    display: none;
+}
+.del-btn{
+    background-color: red;
+    width: 20px;
+    height: max;
+    border-radius: 0 25% 25% 0;
+    border: none;
+
+}
+
